@@ -154,16 +154,125 @@ span{
     color: #007185;
 }
 
-/* contenr section */
-.shop-section{
+.card-row1{
     display: flex;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
-
+    background-color: #e2e6e7;
 }
-.box{
+.card-row2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e6e7;
+}
+
+/* contenr section */
+.card-container{
+    height: 400px;
+    width: 350/px;
+    border: #0f1111;
     background-color: white;
-    height: 300px;
-    width: 23%;
-    border: 2px solid black;
+}
+
+.card-title{
+    font-size: 25px;
+    color: #0f1111;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.card1{
+    display: flex;
+    padding: 6px;
+    height: 120px; 
+    width: 100px;
+}
+.card2{
+    display: flex;
+    padding: 8px;
+    height: 120px; 
+    
+}
+.single-pic-card{
+   height: 300px;
+   width: 400px;
+   padding: 6px;
+}
+.horizontal-line{
+    background-color: #e2e6e7 ;
+    height: 13.5px;
+}
+.card-btn{
+    color: #007185;
+    padding-left:10px ;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.horizontal-img{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    padding-top: 10px;
+   margin: 10px;
+   margin-bottom: 15px;
+}
+.footer{
+    margin-top: 50px;
+}
+.foot-panel-1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel-3{
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url("am.png");
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.foot-panel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+.pages{
+    font-size: 0.7rem;
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
 }
